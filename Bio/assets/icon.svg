@@ -1,0 +1,85 @@
+<svg viewBox="0 0 600 600" class="w-full">
+
+<defs>
+<radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#0f2027"/>
+<stop offset="100%" stop-color="#01030a"/>
+</radialGradient>
+
+<linearGradient id="nGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#00f5ff"/>
+<stop offset="100%" stop-color="#0066ff"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+
+<rect width="600" height="600" fill="url(#bgGrad)" />
+
+<text x="300" y="360"
+text-anchor="middle"
+font-size="260"
+font-family="Orbitron"
+fill="url(#nGrad)"
+filter="url(#glow)">
+N
+</text>
+
+<path id="orbit"
+d="M115 240
+A220 120 -20 1 1 485 360
+A220 120 -20 1 1 115 240"
+fill="none"
+stroke="#00eaff"
+stroke-width="2.5"
+stroke-dasharray="6 6"
+opacity="0.6"
+filter="url(#glow)">
+<animate attributeName="stroke-dashoffset"
+from="0"
+to="-60"
+dur="3s"
+repeatCount="indefinite"/>
+</path>
+
+<!-- μ− -->
+<g id="muMinus" class="cursor-pointer">
+<circle r="18" fill="#00ffff" filter="url(#glow)">
+<animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
+<mpath href="#orbit"/>
+</animateMotion>
+</circle>
+<text font-size="14" fill="#003344"
+text-anchor="middle"
+dominant-baseline="middle">
+μ⁻
+<animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
+<mpath href="#orbit"/>
+</animateMotion>
+</text>
+</g>
+
+<!-- μ+ -->
+<g id="muPlus" class="cursor-pointer">
+<circle r="18" fill="#ff00ff" filter="url(#glow)">
+<animateMotion dur="6s" begin="3s" repeatCount="indefinite" rotate="auto">
+<mpath href="#orbit"/>
+</animateMotion>
+</circle>
+<text font-size="14" fill="#220022"
+text-anchor="middle"
+dominant-baseline="middle">
+μ⁺
+<animateMotion dur="6s" begin="3s" repeatCount="indefinite" rotate="auto">
+<mpath href="#orbit"/>
+</animateMotion>
+</text>
+</g>
+
+</svg>
