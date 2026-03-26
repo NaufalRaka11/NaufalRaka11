@@ -1,5 +1,10 @@
-<svg viewBox="0 0 600 600" class="w-full">
-
+<svg 
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 600 600"
+  width="600"
+  height="600"
+>
 <defs>
 <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
 <stop offset="0%" stop-color="#0f2027"/>
@@ -69,7 +74,7 @@ dominant-baseline="middle">
 <g id="muPlus" class="cursor-pointer">
 <circle r="18" fill="#ff00ff" filter="url(#glow)">
 <animateMotion dur="6s" begin="3s" repeatCount="indefinite" rotate="auto">
-<mpath href="#orbit"/>
+<mpath xlink:href="#orbit"/>
 </animateMotion>
 </circle>
 <text font-size="14" fill="#220022"
