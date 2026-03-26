@@ -4,7 +4,7 @@ const CONFIG = {
   profile: {
     name: "Naufal Raka Airizqi",
     avatar: "assets/icon.svg",
-    bio: "✦ Physics & Chemistry Enthusiast · Tech Savvy ✦<br> crafting immersive digital experiences",
+    bio: "✦ Physics & Chemistry Enthusiast · Tech Savvy ✦ <br>crafting immersive digital experiences",
     copyright: "2026 Naufal Raka Airizqi · Galaxy Learning"
   },
   // Links list – each item has icon, text, subtext, and url
@@ -16,8 +16,8 @@ const CONFIG = {
       url: "https://portfolio.example.com/lenaxu"
     },
     {
-      icon: "fas fa-github",
-      text: "GitHub · open source",
+      icon: "fab fa-github",
+      text: "GitHub",
       subtext: "/ interactive tools",
       url: "https://github.com/lenaxu"
     },
