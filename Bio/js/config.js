@@ -3,7 +3,7 @@ const CONFIG = {
   // Profile settings
   profile: {
     name: "Naufal Raka Airizqi",
-    avatar: "Bio/assets/icon.svg",
+    avatar: "assets/icon.svg",
     bio: "✦ design engineer · creative technologist ✦<br> crafting immersive digital experiences",
     copyright: "2026 Naufal Raka Airizqi · Galaxy Learning"
   },
