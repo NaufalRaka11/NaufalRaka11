@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0c15">
+  <title>Nexus Pro · Interactive Link in Bio</title>
+  <!-- Google Fonts + Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="particle-canvas"></canvas>
+
+  <div class="tilt-container" id="tiltCard">
+    <div class="bio-card" id="bioCard">
+      <div class="profile">
+        <div class="avatar-frame">
+          <img class="avatar" id="profileAvatar" src="https://ui-avatars.com/api/?background=8B5CF6&color=fff&bold=true&size=110&fontsize=0.55&name=LX&rounded=true&length=2&uppercase=true" alt="Profile">
+        </div>
+        <h1 class="name" id="profileName">Lena Xu</h1>
+        <div class="dynamic-greeting" id="greetingMsg">
+          <i class="fas fa-sun"></i> <span id="greetingText">Good day</span>
+        </div>
+        <div class="bio-text" id="profileBio">
+          ✦ design engineer · creative technologist ✦<br> crafting immersive digital experiences
+        </div>
+        <div class="live-clock" id="liveClock">
+          <i class="far fa-clock"></i> <span id="clockTime">--:-- --</span>
+        </div>
+      </div>
+
+      <div class="links-list" id="linksList"></div>
+
+      <div class="stats-row">
+        <div class="stat-badge" id="clickCounterBadge">
+          <i class="fas fa-hand-pointer"></i> <span id="clickCount">0</span> interactions
+        </div>
+        <div class="stat-badge">
+          <i class="fas fa-rocket"></i> live status
+        </div>
+      </div>
+
+      <div class="footer">
+        <span id="copyright"><i class="far fa-copyright"></i> 2025 Lena Xu · interactive studio</span>
+        <div>
+          <button class="theme-toggle" id="themeSwitch" aria-label="Light/Dark mode"><i class="fas fa-moon"></i></button>
+          <span style="margin:0 6px">•</span>
+          <a href="#" id="customizeHint"><i class="fas fa-edit"></i> customize links</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
