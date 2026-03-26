@@ -202,13 +202,3 @@
     mouseY = e.clientY;
   });
   document.addEventListener('mouseleave', () => { mouseX = null; mouseY = null; });
-  
-  // ========== CUSTOMIZATION HELPER ==========
-  const customizeBtn = document.getElementById('customizeHint');
-  customizeBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('✨ EDIT YOUR LINK IN BIO:\n\n1. Open js/config.js and update profile info, links, and URLs.\n2. Replace avatar image URL if desired.\n3. Save and commit to GitHub Pages — enjoy!');
-  });
-  
-  console.log('%c🚀 Modular Interactive Bio | 3D Tilt | Live Clock | Particle Field', 'color:#a855f7; font-size:13px;');
-})();
