@@ -2,10 +2,10 @@
 const CONFIG = {
   // Profile settings
   profile: {
-    name: "Lena Xu",
+    name: "Naufal Raka Airizqi",
     avatar: "https://ui-avatars.com/api/?background=8B5CF6&color=fff&bold=true&size=110&fontsize=0.55&name=LX&rounded=true&length=2&uppercase=true",
     bio: "✦ design engineer · creative technologist ✦<br> crafting immersive digital experiences",
-    copyright: "2025 Lena Xu · interactive studio"
+    copyright: "2026 Naufal Raka Airizqi · Galaxy Learning"
   },
   // Links list – each item has icon, text, subtext, and url
   links: [
