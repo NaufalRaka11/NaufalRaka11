@@ -4,7 +4,7 @@ const CONFIG = {
   profile: {
     name: "Naufal Raka Airizqi",
     avatar: "assets/icon.svg",
-    bio: "✦ Physics & Chemistry Enthusiast · Tech Savvy ✦<br>crafting immersive digital experiences",
+    bio: "✦ Physics & Chemistry Enthusiast · Tech Savvy ✦\ncrafting immersive digital experiences",
     copyright: "2026 Naufal Raka Airizqi · Galaxy Learning"
   },
   // Links list – each item has icon, text, subtext, and url
