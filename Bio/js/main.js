@@ -35,7 +35,7 @@
     return element;
   }
 
-  function safeSetContent(selector, content, useHTML = false) {
+  function safeSetContent(selector, content, useHTML = true) {
     const element = safeGetElement(selector);
     if (element) {
       if (useHTML) {
