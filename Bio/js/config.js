@@ -18,8 +18,8 @@ const CONFIG = {
     {
       icon: "fab fa-github",
       text: "GitHub",
-      subtext: "<br>✦ interactive tools",
-      url: "https://github.com/lenaxu"
+      subtext: "<br>✦ touch your code bro",
+      url: "https://github.com/NaufalRaka11"
     },
     {
       icon: "fab fa-twitter",
