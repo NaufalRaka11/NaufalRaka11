@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0c15">
+  <title>Site Under Construction · Coming Soon</title>
+  <!-- Google Fonts + Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="particle-canvas"></canvas>
+
+  <div class="tilt-container" id="tiltCard">
+    <div class="bio-card" id="constructionCard">
+      <div class="icon-animation">
+        <i class="fas fa-hard-hat"></i>
+        <i class="fas fa-tools"></i>
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <h1 class="title" id="pageTitle">Under Construction</h1>
+      <div class="subtitle" id="subtitle">
+        We're building something amazing.
+      </div>
+      <div class="message" id="message">
+        This page is currently in development.<br>
+        Check back soon for the grand reveal!
+      </div>
+      <div class="progress-container" id="progressContainer">
+        <div class="progress-bar" id="progressBar"></div>
+        <span class="progress-text" id="progressText">0%</span>
+      </div>
+      <div class="live-clock" id="liveClock">
+        <i class="far fa-clock"></i> <span id="clockTime">--:-- --</span>
+      </div>
+      <div class="footer">
+        <span id="copyright"><i class="far fa-copyright"></i> 2025 Studio</span>
+        <div>
+          <button class="theme-toggle" id="themeSwitch" aria-label="Light/Dark mode"><i class="fas fa-moon"></i></button>
+          <span style="margin:0 6px">•</span>
+          <a href="#" id="notifyMe"><i class="fas fa-bell"></i> Notify me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
