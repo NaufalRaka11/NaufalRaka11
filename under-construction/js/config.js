@@ -4,8 +4,8 @@ const CONFIG = {
   page: {
     title: "Under Construction",
     subtitle: "We're building something amazing.",
-    message: "This page is currently in development.<br>Check back soon for the grand reveal!",
-    copyright: "2025 Studio · Crafting experiences"
+    message: "This page is currently in development.<br>Check back soon for the grand reveal!<br>Hope I'm not lazy to finish it",
+    copyright: "2026 Naufal Raka Airizqi · Galaxy Learning"
   },
   // Progress simulation (0-100). Set to final percentage, or leave 0 for animated count-up.
   progressTarget: 78,
