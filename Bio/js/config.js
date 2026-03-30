@@ -13,7 +13,7 @@ const CONFIG = {
       icon: "fas fa-globe",
       text: "Portfolio Nexus",
       subtext: "<br>✦ immersive",
-      url: "https://portfolio.example.com/lenaxu"
+      url: "https://naufalraka11.github.io/NaufalRaka11/under-construction/"
     },
     {
       icon: "fab fa-github",
@@ -25,25 +25,25 @@ const CONFIG = {
       icon: "fab fa-twitter",
       text: "X / Twitter",
       subtext: "<br>✦ design threads",
-      url: "https://twitter.com/lenaxu"
+      url: "https://naufalraka11.github.io/NaufalRaka11/under-construction/"
     },
     {
       icon: "fas fa-palette",
       text: "Creative Resources",
       subtext: "<br>✦ free UI kits",
-      url: "https://lenaxu.design/links"
+      url: "https://naufalraka11.github.io/NaufalRaka11/under-construction/"
     },
     {
       icon: "fas fa-calendar-check",
       text: "Book a session",
       subtext: "<br>✦ 20min creative call",
-      url: "https://cal.com/lenaxu"
+      url: "https://naufalraka11.github.io/NaufalRaka11/under-construction/"
     },
     {
       icon: "fas fa-mug-hot",
       text: "Support my work",
       subtext: "<br>✦ ☕ coffee",
-      url: "https://buymeacoffee.com/lenaxu"
+      url: "https://naufalraka11.github.io/NaufalRaka11/under-construction/"
     }
   ]
 };
