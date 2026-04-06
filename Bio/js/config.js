@@ -22,10 +22,10 @@ const CONFIG = {
       url: "https://github.com/NaufalRaka11"
     },
     {
-      icon: "fab fa-twitter",
-      text: "X / Twitter",
-      subtext: "<br>✦ design threads",
-      url: "https://naufalraka11.github.io/NaufalRaka11/under-construction/"
+      icon: "fa-light fa-atom",
+      text: "Valency | Periodic Table",
+      subtext: "<br>✦ Try out my first product!",
+      url: "valency-ntanglement.vercel.app"
     },
     {
       icon: "fas fa-palette",
