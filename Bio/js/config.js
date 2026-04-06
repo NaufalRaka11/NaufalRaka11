@@ -22,10 +22,10 @@ const CONFIG = {
       url: "https://github.com/NaufalRaka11"
     },
     {
-      icon: "fa-light fa-atom",
+      icon: "fal fa-atom",
       text: "Valency | Periodic Table",
       subtext: "<br>✦ Try out my first product!",
-      url: "valency-ntanglement.vercel.app"
+      url: "https://valency-ntanglement.vercel.app"
     },
     {
       icon: "fas fa-palette",
