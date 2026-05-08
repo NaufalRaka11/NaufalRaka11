@@ -13,7 +13,7 @@ const CONFIG = {
       icon: "fas fa-globe",
       text: "Portfolio Nexus",
       subtext: "<br>✦ immersive",
-      url: "https://naufalraka11.github.io/NaufalRaka11/under-construction/"
+      url: "https://naufalraka11.github.io/nexus"
     },
     {
       icon: "fab fa-github",
